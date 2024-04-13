@@ -26,7 +26,7 @@ function Signup() {
     setErrors(newErrors);
     if (Object.keys(newErrors).every((key) => newErrors[key] === "")) {
       axios
-        .post("http://localhost:3000/signup", values)
+        .post("http://localhost:4000/signup", values)
         .then((res) => {
           navigate("/");
         })
