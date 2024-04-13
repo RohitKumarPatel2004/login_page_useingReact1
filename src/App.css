@@ -1,0 +1,287 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("pic1.png");
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 12px 12px 12px 12px rgba(1, 1, 11, 0.2);
+}
+
+.i-1:focus {
+  outline: none;
+}
+
+.h_1 {
+  height: 70px;
+  width: 300px;
+  color: green;
+}
+
+.main-containent {
+  height: 325px;
+  width: 300px;
+  border: none;
+  margin-top: 20px;
+}
+
+.i-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+}
+
+.i-1:hover {
+  border: none;
+}
+
+.btn {
+  margin-top: 25px;
+  height: 30px;
+  width: 200px;
+  margin-left: 20%;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  color: rgb(101, 98, 98);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: green;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.msg{
+  background-color: lightgreen;
+  
+  /* height: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("pic1.png");
+  background-size: 210px 210px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+  background-color:white;
+  border-radius: 20px;
+  box-shadow: 12px 12px 12px 12px rgba(1, 1, 11, 0.2);
+}
+
+
+.body{
+  height:60% ;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h_1{
+  height: 70px;
+  width: 300px;
+  color: green;
+}
+
+.main-containent{
+  height: 325px;
+  width: 300px;
+  border: none;
+  margin-top: 1.25rem;
+  
+
+}
+
+.i-1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+}
+
+.i-1:focus{
+  outline: none;
+}
+
+
+.btn{
+
+  
+  height: 30px;
+  width: 200px;
+  margin-left: 10%;
+  border-radius: 30px;
+  
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  row-gap: 10px;
+}
+
+.i-2{
+  background-color: green;
+}
+
+.i-3{
+  width:200px ;
+  background-color:rgb(208, 221, 208);
+  border: 1px solid green;
+  color:green;
+}
+
+
+
+footer{
+  color:rgb(101, 98, 98);
+  width: 115%;
+  padding-left: 25px;
+  margin-top: 20px;
+
+} 
+footer a{
+  color:green ;
+  font-weight: 800;
+  text-decoration:none ;
+}
+
+
+.nav-1{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+}
+
+.cont-1{
+  width: 50vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  
+}
+
+.cont-1 Link{
+  color: wheat;
+}
+
+
+.err{
+  color: red;
+  font-size: 12px;
+
+}
+
+
+.ram{
+  background-image: url("hindu.jpg");
+  background-size: cover;
+  background-size: 700px 700px;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+}
+
+
+
